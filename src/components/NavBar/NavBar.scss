@@ -1,0 +1,101 @@
+.containerNav {
+    // background-color: cyan;
+    display: flex;
+    justify-content: space-between;
+
+    .navbar-brand {
+        color: rgb(0, 0, 0);
+        letter-spacing: 0.2rem;
+        font-size: 1.6rem;
+    }
+}
+
+.navbar-collapse {
+    flex-grow: 0;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: black;
+    padding: 1rem;
+}
+
+.linkNav{
+    padding: 15px;
+}
+
+.dropdown-toggle{
+    padding: 15px;
+}
+
+.btn{
+    margin: 0;
+
+}
+
+
+
+.btn-success {
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    border: none;
+    padding: 15px 0px 15px 15px ;
+
+}
+
+.btn-success:hover {
+    background-color: transparent;
+    color: black;
+    border: none;
+}
+
+.btn-success:active{
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    border: none;
+}
+
+.btn-success:focus{
+    color: rgb(0, 0, 0);
+    background-color:transparent;
+    border: none;
+}
+   
+
+.btn-primary {
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    border: none;
+}
+
+.btn-primary:hover {
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    border-color: none;
+}
+
+.btn-primary:focus {
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    border-color: none;
+    box-shadow: transparent;
+}
+
+.btn-primary:active, .show>.btn-primary.dropdown-toggle {
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    border-color: none;
+}
+
+.show>.btn-primary.dropdown-toggle:focus {
+    box-shadow: transparent;
+}
+
+.show>.btn-primary.dropdown-toggle {
+    // color: #fff;
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.btn-primary:active:focus{
+    box-shadow: none;
+}
