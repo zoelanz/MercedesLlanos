@@ -30,7 +30,7 @@ function NavBar() {
                 id="dropdown-split-basic"
               />
               <Dropdown.Menu>
-                <Link to={`/Work2022`}><Dropdown.Item href="#/action-2">2022</Dropdown.Item></Link>
+                <Link to={`/Work`}><Dropdown.Item href="#/action-2">2022</Dropdown.Item></Link>
                 <Dropdown.Item href="#/action-3">2021</Dropdown.Item>
                 <Dropdown.Item href="#/action-3">2020</Dropdown.Item>
               </Dropdown.Menu>
