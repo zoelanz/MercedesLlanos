@@ -21,18 +21,41 @@
 
 .linkNav{
     padding: 15px;
+    color: black;
+    text-decoration: none;
+    
+    &:hover{
+        color: #A19B9B;
+    }
 }
 
 .dropdown-toggle{
-    padding: 15px;
+    padding: 5px 10px 5px 5px;
+
+    .arrowNav{
+        color: black;
+        &:hover{
+            color: #A19B9B;
+        }
+
+    }
+}
+
+.dropdown-toggle::after {
+    display: inline-block;
+    margin-left: 0em;
+    vertical-align: 0em;
+    content: "";
+    border-top: 0 solid;
+    border-right: 0 solid transparent;
+    border-bottom: 0;
+    border-left: 0 solid transparent;
 }
 
 .btn{
     margin: 0;
 
 }
-
-
 
 .btn-success {
     color: rgb(0, 0, 0);
@@ -44,7 +67,7 @@
 
 .btn-success:hover {
     background-color: transparent;
-    color: black;
+    color: #A19B9B;
     border: none;
 }
 
@@ -86,16 +109,35 @@
     border-color: none;
 }
 
+
+
 .show>.btn-primary.dropdown-toggle:focus {
     box-shadow: transparent;
 }
 
 .show>.btn-primary.dropdown-toggle {
-    // color: #fff;
     background-color: transparent;
     border-color: transparent;
+
 }
 
 .btn-primary:active:focus{
+    box-shadow: none;
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-image: url("../../resources/bars-staggered-solid.svg");
+}
+
+.navbar-light .navbar-toggler {
+    border-color: rgba(0, 0, 0, 0);
+}
+
+
+
+
+.navbar-toggler:focus {
+    text-decoration: none;
+    outline: 0;
     box-shadow: none;
 }
