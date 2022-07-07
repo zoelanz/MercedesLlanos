@@ -10,7 +10,6 @@
     }
 
     .aboutText{
-        // background-color: chocolate;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -26,6 +25,8 @@
         border-radius: 4px;
         transition: all ease 0.5s;
         letter-spacing: 1px;
+        font-size: 1rem;
+    
         
         &:hover{
             letter-spacing: 3px;

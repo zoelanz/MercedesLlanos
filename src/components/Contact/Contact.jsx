@@ -77,7 +77,7 @@ function Contact() {
                 className="button"
               //   variant="secondary"
               >
-                SEND
+                Submit
               </Button>
             </div>
           </div>

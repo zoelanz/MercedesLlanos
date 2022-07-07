@@ -57,13 +57,17 @@
 
 }
 
+
 .btn-success {
     color: rgb(0, 0, 0);
     background-color: transparent;
     border: none;
     padding: 15px 0px 15px 15px ;
-
+    box-shadow: 0 0 0 .25rem rgba(60, 153, 110, 0);
 }
+
+
+
 
 .btn-success:hover {
     background-color: transparent;
@@ -81,6 +85,11 @@
     color: rgb(0, 0, 0);
     background-color:transparent;
     border: none;
+}
+
+.btn-group>.btn-group:not(:last-child)>.btn, .btn-group>.btn:not(:last-child):not(.dropdown-toggle) {
+ 
+    box-shadow: none;
 }
    
 
@@ -109,11 +118,20 @@
     border-color: none;
 }
 
-
+.btn-primary:focus {
+    color: #fff;
+    background-color: #0b5dd700;
+    border-color: #0a57ca00;
+    box-shadow: 0 0 0 0.25rem rgba(49, 131, 253, 0);
+}
 
 .show>.btn-primary.dropdown-toggle:focus {
-    box-shadow: transparent;
+    box-shadow: 0 0 0 .25rem rgba(49, 131, 253, 0);
 }
+
+
+
+
 
 .show>.btn-primary.dropdown-toggle {
     background-color: transparent;

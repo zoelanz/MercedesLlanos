@@ -1,8 +1,8 @@
 import React from "react";
 import { Splide, SplideSlide } from "@splidejs/react-splide";
+
 import "@splidejs/react-splide/css";
 import "@splidejs/react-splide/css/core";
-
 import "./WorkDetail.scss";
 
 function WorkDetail({ works }) {
@@ -26,7 +26,8 @@ function WorkDetail({ works }) {
           perPage:1,
         }}
       >
-        <SplideSlide>
+        
+        {/* <SplideSlide>
           <img className="imgCarrousel" src={works.img1} />
         </SplideSlide>
         <SplideSlide>
@@ -67,7 +68,7 @@ function WorkDetail({ works }) {
         </SplideSlide>
         <SplideSlide>
           <img className="imgCarrousel" src={works.img14} />
-        </SplideSlide>
+        </SplideSlide> */}
       </Splide>
     </div>
   );

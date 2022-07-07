@@ -10,7 +10,7 @@ function WorkYear({ data }) {
           <Work
             workId={work.id}
             name={work.name}
-            img1={work.img1}
+            img1={work.img}
             category={work.category}
             year={work.year}
           />
