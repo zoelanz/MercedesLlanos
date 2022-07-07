@@ -5,15 +5,19 @@ import { useNavigate, useParams } from "react-router-dom";
 import { getFirestore, doc, getDoc } from "firebase/firestore";
 
 function WorkDetailContainer() {
+
   const [detailWorks, setDetailWorks] = useState([]);
 
   const { detailId } = useParams();
 
   const productNotFound = useNavigate();
 
+  console.log(detailId)
+  
   useEffect(() => {
     const db = getFirestore();
     const dbQuery = doc(db, "works", detailId);
+    console.log("jueputa")
 
     getDoc(dbQuery)
       .then((resp) => {
@@ -29,5 +33,6 @@ function WorkDetailContainer() {
     </div>
   );
 }
+
 
 export default WorkDetailContainer;

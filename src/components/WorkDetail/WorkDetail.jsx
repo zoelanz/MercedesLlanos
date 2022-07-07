@@ -1,4 +1,5 @@
 import React from "react";
+import Carrousel from "../Carrousel/Carrousel";
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 
 import "@splidejs/react-splide/css";
@@ -6,10 +7,16 @@ import "@splidejs/react-splide/css/core";
 import "./WorkDetail.scss";
 
 function WorkDetail({ works }) {
+  console.log(works);
+
   return (
     <div className="splide__slide">
-      <h6 className="name">{works.name}, {works.year}</h6>
-      <p className="name">{works.technique} {works.size}</p>
+      <h6 className="name">
+        {works.name}, {works.year}
+      </h6>
+      <p className="name">
+        {works.technique} {works.size}
+      </p>
       <Splide
         className="splide"
         aria-label={works.name}
@@ -17,17 +24,14 @@ function WorkDetail({ works }) {
           rewind: true,
           gap: "1rem",
           // type: "loop",
-          // focus: "center",
-          // autoWidth: true,
           speed: 500,
           height: "32rem",
           width: "100%",
           padding: 0,
-          perPage:1,
+          perPage: 1,
         }}
       >
-        
-        {/* <SplideSlide>
+        <SplideSlide>
           <img className="imgCarrousel" src={works.img1} />
         </SplideSlide>
         <SplideSlide>
@@ -68,7 +72,7 @@ function WorkDetail({ works }) {
         </SplideSlide>
         <SplideSlide>
           <img className="imgCarrousel" src={works.img14} />
-        </SplideSlide> */}
+        </SplideSlide>
       </Splide>
     </div>
   );

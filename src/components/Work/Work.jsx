@@ -3,12 +3,12 @@ import { Link } from "react-router-dom";
 
 import "./Work.scss";
 
-function Work({ name, img1, workId }) {
+function Work({ name, img, workId }) {
   return (
     <div className="work">
       <Card className="card" style={{ width: "17rem" }}>
         <Link to={`/detail/${workId}`}>
-          <Card.Img className="imgWork" variant="top" src={img1} />
+          <Card.Img className="imgWork" variant="top" src={img} />
         </Link>
         <Card.Body>
           <Card.Text>{name}</Card.Text>
