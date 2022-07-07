@@ -1,0 +1,32 @@
+
+.splide__slide{
+    // background-color: crimson;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.splide{
+    // background-color: chartreuse;
+    padding: 0;
+    margin: 0;
+ 
+}
+
+.name{
+    text-align: center;
+}
+
+.description{
+    text-align: center;
+}
+
+.imgCarrousel{
+    height: 32rem;
+    width: auto;
+}
+
+.splide__pagination li{
+    display: none;
+}

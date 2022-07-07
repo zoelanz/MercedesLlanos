@@ -11,6 +11,8 @@ import {
   where,
 } from "firebase/firestore";
 
+import "./WorkYearContainer.scss"
+
 // let data = [
 //   {
 //     year: 2022,
@@ -245,7 +247,7 @@ import {
 //     img5: "https://i.imgur.com/ZBOG4Yc.jpg",
 //   },
 
-//   // === EXHIBITIONS === //
+  // === EXHIBITIONS === //
 
 //   {
 //     year: 2022,
@@ -337,16 +339,8 @@ function WorkYearContainer() {
   }, [category,year]);
 
   return (
-    <div>
-      {/* <WorkYear data={data} /> */}
-      {/* <button onClick={() => addDocsFb()}> traer datos </button> */}
-
-      {year && (
-        <Link className="buttonBack" to="/">
-          <span>INICIO</span>
-        </Link>
-      )}
-      <WorkYear data={works} />
+    <div className="workYear">
+      <WorkYear  data={works} />
     </div>
   );
 }

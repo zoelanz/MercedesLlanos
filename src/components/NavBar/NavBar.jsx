@@ -66,13 +66,11 @@ function NavBar() {
                 </Link>
               </Dropdown.Menu>
             </Dropdown>
-            {/* <Nav.Link>About</Nav.Link> */}
-            <Link className="linkNav" to={``}>
+            <Link className="linkNav" to={`/about`}>
               About
             </Link>
 
-            {/* <Nav.Link>Contact</Nav.Link> */}
-            <Link className="linkNav" to={``}>
+            <Link className="linkNav" to={`/contact`}>
               Contact
             </Link>
           </Nav>

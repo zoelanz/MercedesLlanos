@@ -1,5 +1,5 @@
 .work{
-    padding: 30px;
+    padding: 20px;
 
     .card{
         border: none;
@@ -9,5 +9,9 @@
 
 .imgWork{
     width:100%;
-    height: auto;
+    height:auto;
+    transition: all ease 0.5s;
+    &:hover{
+        transform: scale(1.1);
+    }
 }
