@@ -21,7 +21,7 @@ function About() {
             love and care, confusing the viewer as to whether the events
             portrayed are pleasurable or painful, loving or hateful.
           </p>
-          <button>DOWNLOAD CV</button>
+          <a href="https://docs.google.com/document/d/1z-_LImVuLFon0gXyNGiwlEPiKS0CXGSSeQhd83P6iQ4/edit?usp=sharing" target= "_blank"> MERCEDES LLANOS CV</a>
         </div>
       </div>
       <div className="press">

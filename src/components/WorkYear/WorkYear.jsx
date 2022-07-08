@@ -10,9 +10,10 @@ function WorkYear({ data }) {
           <Work
             workId={work.id}
             name={work.name}
-            img={work.img1}
+            img={work.img[0]}
             category={work.category}
             year={work.year}
+            size={data.length > 5 ? "17rem" : "35rem"}
           />
         </div>
       ))}
