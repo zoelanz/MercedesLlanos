@@ -32,8 +32,10 @@
 .dropdown-toggle{
     padding: 5px 10px 5px 5px;
 
+
     .arrowNav{
         color: black;
+        
         &:hover{
             color: #A19B9B;
         }
@@ -57,17 +59,14 @@
 
 }
 
-
 .btn-success {
     color: rgb(0, 0, 0);
     background-color: transparent;
     border: none;
     padding: 15px 0px 15px 15px ;
     box-shadow: 0 0 0 .25rem rgba(60, 153, 110, 0);
+
 }
-
-
-
 
 .btn-success:hover {
     background-color: transparent;
@@ -100,7 +99,7 @@
 }
 
 .btn-primary:hover {
-    color: rgb(0, 0, 0);
+    color: #A19B9B;
     background-color: transparent;
     border-color: none;
 }
@@ -119,19 +118,17 @@
 }
 
 .btn-primary:focus {
-    color: #fff;
+    color: rgb(0, 0, 0);
     background-color: #0b5dd700;
     border-color: #0a57ca00;
     box-shadow: 0 0 0 0.25rem rgba(49, 131, 253, 0);
+
+  
 }
 
 .show>.btn-primary.dropdown-toggle:focus {
     box-shadow: 0 0 0 .25rem rgba(49, 131, 253, 0);
 }
-
-
-
-
 
 .show>.btn-primary.dropdown-toggle {
     background-color: transparent;
@@ -152,8 +149,6 @@
 }
 
 
-
-
 .navbar-toggler:focus {
     text-decoration: none;
     outline: 0;
@@ -164,4 +159,32 @@
     color: rgb(0, 0, 0);
     text-decoration: none;
     background-color: #70148700;
+
+
 }
+
+@media only screen and (max-width: 992px){
+ 
+  .btn-group-vertical>.btn, .btn-group>.btn{
+    flex: 0;
+    padding: 15px;
+
+  }
+}
+
+@media only screen and (max-width: 429px){
+ 
+    .containerNav .navbar-brand{
+        font-size: 20px;
+    }
+  }
+
+  @media only screen and (max-width: 380px){
+ 
+    .containerNav .navbar-brand{
+        font-size: 18px;
+    }
+  }
+  
+
+  

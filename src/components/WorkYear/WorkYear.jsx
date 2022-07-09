@@ -13,7 +13,7 @@ function WorkYear({ data }) {
             img={work.img[0]}
             category={work.category}
             year={work.year}
-            size={data.length > 5 ? "17rem" : "35rem"}
+            size={data.length > 3 ? "17rem" : "35rem"}
           />
         </div>
       ))}

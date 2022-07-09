@@ -27,12 +27,11 @@ function NavBar() {
             </Link>
 
             <Dropdown className="buttonWork" as={ButtonGroup}>
-              <Button variant="success">Work</Button>
 
               <Dropdown.Toggle // split
                 // variant="success"
                 id="dropdown-split-basic"
-              >
+              > Work
                 <MdOutlineKeyboardArrowDown className="arrowNav" />
               </Dropdown.Toggle>
 
@@ -50,11 +49,9 @@ function NavBar() {
             </Dropdown>
 
             <Dropdown as={ButtonGroup}>
-              <Button variant="success">Exhibitions</Button>
-              <Dropdown.Toggle // split
-                // variant="success"
+              <Dropdown.Toggle 
                 id="dropdown-split-basic"
-              >
+              > Exhibitions
                 <MdOutlineKeyboardArrowDown className="arrowNav" />
               </Dropdown.Toggle>
               <Dropdown.Menu>
