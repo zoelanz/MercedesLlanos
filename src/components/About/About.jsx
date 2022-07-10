@@ -5,7 +5,7 @@ function About() {
   return (
     <div>
       <div className="about">
-        <img className="aboutImg" src="src/resources/charo.jfif" alt="" />
+        <img className="aboutImg" src="https://i.imgur.com/3Bv3oHO.jpg" alt="" />
         <div className="aboutText">
           <p>
             Mercedes Llanos (b.1992, Argentina) is a figurative painter, drawer
