@@ -1,8 +1,13 @@
-.container-fluid{
-    padding: 20px 0;
-}
 
 .picHome{
     width: 100%;
 
 }
+
+@media only screen and (max-width: 500px){
+ 
+    .home{
+        padding: 20px 0px 150px 0px;
+    }
+  }
+  

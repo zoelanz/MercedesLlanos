@@ -8,7 +8,7 @@ import "./Home.scss";
 function Home() {
   return (
    
-      <div className="container-fluid">
+      <div className="container-fluid home">
         <img
           className="picHome"
           src="https://i.imgur.com/TdYjZlc.jpg"
