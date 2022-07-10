@@ -6,7 +6,6 @@ import WorkYearContainer from "./components/WorkYearContainer/WorkYearContainer"
 import WorkDetailContainer from "./components/WorkDetailContainer/WorkDetailContainer";
 import About from "./components/About/About";
 import Contact from "./components/Contact/Contact";
-import Footer from "./components/Footer/Footer";
 
 
 import "./App.css";
@@ -32,7 +31,6 @@ function App() {
               element={<Contact />}
             />
         </Routes>
-        <Footer />
       </div>
     </BrowserRouter>
   );

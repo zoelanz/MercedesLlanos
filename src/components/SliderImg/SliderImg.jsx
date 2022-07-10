@@ -1,5 +1,7 @@
 import React from 'react'
 import { SplideSlide } from "@splidejs/react-splide";
+import "./SliderImg.scss";
+
 
 
 function SliderImg({img}) {
