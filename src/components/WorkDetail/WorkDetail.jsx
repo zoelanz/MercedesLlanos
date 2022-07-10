@@ -8,8 +8,6 @@ import "./WorkDetail.scss";
 
 function WorkDetail({ works }) {
 
-  
-
   const [module, setModule] = useState();
 
   useEffect(() => {

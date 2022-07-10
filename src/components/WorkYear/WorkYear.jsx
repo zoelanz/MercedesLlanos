@@ -7,13 +7,13 @@ function WorkYear({ data }) {
     <div className="workContainer">
       {data.map((work) => (
         <div key={work.id}>
-          <Work
+          <Work className="work"
             workId={work.id}
             name={work.name}
             img={work.img[0]}
             category={work.category}
             year={work.year}
-            size={data.length > 3 ? "17rem" : "35rem"}
+            size={data.length > 3 ? "17rem" : "23rem"}
           />
         </div>
       ))}
