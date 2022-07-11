@@ -1,13 +1,16 @@
-
-.picHome{
+.picHome {
     width: 100%;
-
+    background-image: url("https://i.imgur.com/TdYjZlc.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 500px;
 }
 
-@media only screen and (max-width: 500px){
- 
-    .home{
-        padding: 20px 0px 150px 0px;
+@media only screen and (max-width: 650px) {
+
+    .picHome {
+        height: 450px;
+        background-position: right;
+        background-repeat: no-repeat;
     }
-  }
-  
+}

@@ -15,12 +15,11 @@
   box-sizing: border-box;
 }
 
-
-
 .App{
   padding: 0px 30px;
   background-color: #FFFFFF;
 }
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;

@@ -1,21 +1,13 @@
 import React from "react";
 
-import { Link} from "react-router-dom";
-
 
 import "./Home.scss";
 
 function Home() {
   return (
-   
-      <div className="container-fluid home">
-        <img
-          className="picHome"
-          src="https://i.imgur.com/TdYjZlc.jpg"
-          alt="picHome"
-        />
-      </div>
-  
+    <div className="container-fluid home">
+      <div className="picHome"></div>
+    </div>
   );
 }
 
