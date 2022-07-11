@@ -1,10 +1,12 @@
-import {useState, useEffect} from "react";
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 
 import SliderImg from "../SliderImg/SliderImg"
 
 import "@splidejs/react-splide/css";
 import "@splidejs/react-splide/css/core";
+
+import "./Carrousel.scss";
+
 
 function Carrousel({works}) {
 
@@ -13,7 +15,7 @@ function Carrousel({works}) {
      <h6 className="name">
        {works.name}, {works.year}
      </h6>
-     <p className="name">
+     <p className="description">
        {works.technique} {works.size}
      </p>
      <Splide
@@ -25,7 +27,7 @@ function Carrousel({works}) {
          speed: 500,
          height: "32rem",
          width: "100%",
-         padding: "10px",
+        //  padding: "10px",
          perPage: 1,
          start: 0
         }}

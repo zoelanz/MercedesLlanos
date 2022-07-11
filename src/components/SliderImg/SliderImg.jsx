@@ -6,7 +6,7 @@ import "./SliderImg.scss";
 
 function SliderImg({img}) {
   return (
-    <SplideSlide>
+    <SplideSlide className='carrousel'>
   <img className="imgCarrousel" src={img}  />
   </SplideSlide>
   )

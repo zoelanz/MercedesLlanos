@@ -1,50 +1,55 @@
-.imgCarrousel{
+.carrousel{
+
+  height: min-content;
+
+  .imgCarrousel{
     height: 32rem;
     width: auto;
 }
+}
+@media only screen and (max-width: 800px){
+  .carrousel{
 
-@media only screen and (max-width: 835px){
     .imgCarrousel{
-        height: 23rem;
+        height: 28rem;
         width: auto;
     }
   }
-
-@media only screen and (max-width: 710px){
-    .imgCarrousel{
-        height: 22rem;
-        width: auto;
-    }
   }
 
-  @media only screen and (max-width: 600px){
-    .imgCarrousel{
-        height: 20rem;
-        width: auto;
-    }
-  }
-
-  @media only screen and (max-width: 570px){
-    .imgCarrousel{
-        height: 18rem;
-        width: auto;
-    }
-  }
-
-  @media only screen and (max-width: 510px){
-    .imgCarrousel{
-        height: 17rem;
-        width: auto;
-    }
-  }
-
-  @media only screen and (max-width: 470px){
-    .imgCarrousel{
-        height: 12rem;
-        width: auto;
-    }
-  }
+  @media only screen and (max-width: 700px){
+    .carrousel{
   
-  
+      .imgCarrousel{
+          height: 23.8rem;
+          width: auto;
+      }
+    }
+    }
 
+    @media only screen and (max-width: 600px){
+      .carrousel{
+    
+        .imgCarrousel{
+            height: 19.7rem;
+            width: auto;
+        }
+      }
+      }
+
+      @media only screen and (max-width: 500px){
+        .carrousel{
+         
+      
+          .imgCarrousel{
+              height: 14.4rem;
+              width: auto;
+          }
+        }
+        }
+      
+    
   
+   
+
+ 
