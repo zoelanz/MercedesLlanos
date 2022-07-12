@@ -37,7 +37,7 @@ function NavBar() {
 
               <Dropdown.Menu>
                 <Link to={`/work/2022`}>
-                  <Dropdown.Item href="#/action-2">2022</Dropdown.Item>
+                  <Dropdown.Item className="year" href="#/action-2">2022</Dropdown.Item>
                 </Link>
                 <Link to={`/work/2021`}>
                   <Dropdown.Item href="#/action-3">2021</Dropdown.Item>

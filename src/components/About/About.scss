@@ -19,24 +19,29 @@
         letter-spacing: 0.2px;
 
 
-        a {
-            background-color: transparent;
-            padding: 8px 20px;
-            border-radius: 4px;
-            transition: all ease 0.5s;
+
+
+
+        .button {
+            border: 1px solid rgb(0, 0, 0);
             letter-spacing: 1px;
+            transition: ease-in-out 0.4s;
+            padding: 10px 18px;
+            background-color: white;
+            border-radius: 5px;
             font-size: 1rem;
             text-decoration: none;
             color: black;
 
-
             &:hover {
                 letter-spacing: 2px;
+                color: black;
             }
         }
     }
-
 }
+
+
 
 .press {
     display: flex;
@@ -66,7 +71,8 @@
         .aboutImg {
             height: fit-content;
         }
-        .aboutText{
+
+        .aboutText {
             font-size: 15px;
             line-height: 28px;
         }
@@ -79,7 +85,8 @@
         .aboutImg {
             height: fit-content;
         }
-        .aboutText{
+
+        .aboutText {
             font-size: 14px;
             line-height: 25px;
         }
@@ -92,16 +99,17 @@
         .aboutImg {
             height: fit-content;
         }
-        .aboutText{
+
+        .aboutText {
             font-size: 13.5px;
             line-height: 22px;
         }
     }
 
-    
-    .press{
-        .links a{
-           font-size: 12px;
+
+    .press {
+        .links a {
+            font-size: 12px;
         }
     }
 }
@@ -124,11 +132,11 @@
         }
     }
 
-    .press{
+    .press {
         padding: 10px;
 
-        .links a{
-           font-size: 11px;
+        .links a {
+            font-size: 11px;
         }
     }
 }

@@ -9,15 +9,17 @@ import {
   getDocs,
   query,
   where,
-  addDoc,
+  
 } from "firebase/firestore";
 
 import "./WorkYearContainer.scss";
+import Loader from "../Loader/Loader";
 
 function WorkYearContainer() {
   //FILTERING WORKS BY YEAR AND CATEGORY//
 
   const [works, setWorks] = useState([]);
+  const [loading, setLoading] = useState(true);
 
   const { category, year } = useParams();
 
@@ -35,12 +37,17 @@ function WorkYearContainer() {
       .then((resp) =>
         setWorks(resp.docs.map((work) => ({ ...work.data(), id: work.id })))
       )
-      .catch((err) => console.log(err));
+      .catch((err) => console.log(err))
+      .finally(
+        setTimeout(() => {
+          setLoading(false);
+        }, 1500)
+      );
   }, [category, year]);
 
   return (
     <div className="workYear">
-      <WorkYear data={works} />
+      {loading ? <Loader /> : <WorkYear data={works} />}
     </div>
   );
 }

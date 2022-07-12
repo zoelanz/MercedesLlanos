@@ -1,4 +1,5 @@
 import React from "react";
+import ExtLink from "../ExtLink/ExtLink";
 import "./About.scss";
 
 function About() {
@@ -26,10 +27,10 @@ function About() {
             portrayed are pleasurable or painful, loving or hateful.
           </p>
           <a
+            className="button"
             href="https://docs.google.com/document/d/1z-_LImVuLFon0gXyNGiwlEPiKS0CXGSSeQhd83P6iQ4/edit?usp=sharing"
             target="_blank"
           >
-            {" "}
             MERCEDES LLANOS CV
           </a>
         </div>
@@ -38,39 +39,12 @@ function About() {
         <h5>PRESS</h5>
         <h6>Selected Interviews and writing:</h6>
         <div className="links">
-          <a
-            target="_blank"
-            href="https://blog.utc.edu/news/2022/04/creativity-in-sleep-alum-artist-finds-inspirations-in-dreams/"
-          >
-            https://blog.utc.edu/news/2022/04/creativity-in-sleep-alum-artist-finds-inspirations-in-dreams/
-          </a>
-          <a
-            target="_blank"
-            href="https://academicworks.cuny.edu/hc_sas_etds/801/"
-          >
-            https://academicworks.cuny.edu/hc_sas_etds/801/
-          </a>
-          <a
-            target="_blank"
-            href="https://www.mineralhousemedia.com/media/mercedesllanos"
-          >
-            https://www.mineralhousemedia.com/media/mercedesllanos
-          </a>
-          <a target="_blank" href="https://www.instagram.com/p/BfL4mVXgLmK/">
-            https://www.instagram.com/p/BfL4mVXgLmK/
-          </a>
-          <a
-            target="_blank"
-            href="http://www.chattanoogapulse.com/arts_entertainment/entertainment-news/the-south-american-art-of-mercedes-llanos/"
-          >
-            http://www.chattanoogapulse.com/arts_entertainment/entertainment-news/the-south-american-art-of-mercedes-llanos/
-          </a>
-          <a
-            target="_blank"
-            href="https://articleswithsachaqa.wordpress.com/2017/03/30/transformation-mercedes-llanos-interview/"
-          >
-            https://articleswithsachaqa.wordpress.com/2017/03/30/transformation-mercedes-llanos-interview/
-          </a>
+          <ExtLink link="https://blog.utc.edu/news/2022/04/creativity-in-sleep-alum-artist-finds-inspirations-in-dreams/" />
+          <ExtLink link="https://academicworks.cuny.edu/hc_sas_etds/801/" />
+          <ExtLink link="https://www.mineralhousemedia.com/media/mercedesllanos" />
+          <ExtLink link="https://www.instagram.com/p/BfL4mVXgLmK/" />
+          <ExtLink link="http://www.chattanoogapulse.com/arts_entertainment/entertainment-news/the-south-american-art-of-mercedes-llanos/" />
+          <ExtLink link="https://articleswithsachaqa.wordpress.com/2017/03/30/transformation-mercedes-llanos-interview/" />
         </div>
       </div>
     </div>

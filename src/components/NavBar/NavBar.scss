@@ -1,5 +1,4 @@
 .containerNav {
-    // background-color: cyan;
     display: flex;
     justify-content: space-between;
 
@@ -99,7 +98,6 @@
 }
 
 .btn-primary:hover {
-    color: #A19B9B;
     background-color: transparent;
     border-color: none;
 }
@@ -161,6 +159,24 @@
     background-color: #70148700;
 
 
+}
+
+
+ 
+
+#dropdown-split-basic{
+
+    
+    &:hover{
+
+        color: #A19B9B;
+
+        .arrowNav{
+
+        color: #A19B9B;
+        }
+
+    }
 }
 
 @media only screen and (max-width: 992px){
