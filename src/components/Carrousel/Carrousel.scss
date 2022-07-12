@@ -3,11 +3,12 @@
     width: 100%;
     display: flex;
     justify-content: center;
-    // background-color: crimson;
     flex-direction: column;
     align-items: center;
     align-content: center;
     padding-bottom: 20px;
+    padding-top:30px ;
+
 }
 
 .name{
@@ -34,8 +35,8 @@
 @media only screen and (max-width: 950px){
 
     .slide{
-       
-        padding-bottom: 10px;
+        padding-top:50px ;
+        padding-bottom: 0px;
     }
 
     .name{
