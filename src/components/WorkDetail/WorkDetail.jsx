@@ -15,8 +15,8 @@ function WorkDetail({ works }) {
     if(works !== undefined){
       setModule(<Carrousel works={works}/>)
     }else{
-      setModule(<div class="progress-loader">
-      <div class="progress"></div>
+      setModule(<div className="progress-loader">
+      <div className="progress"></div>
   </div>)
     }
   },[works])

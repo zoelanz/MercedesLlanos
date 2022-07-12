@@ -1,5 +1,5 @@
 .about {
-    padding: 30px;
+    padding: 50px 30px;
     display: flex;
     justify-content: space-around;
     width: 100%;
@@ -15,8 +15,9 @@
         justify-content: space-between;
         align-items: center;
         width: 45%;
-        line-height: 1.8rem;
+        line-height: 2rem;
         letter-spacing: 0.2px;
+
 
         a {
             background-color: transparent;
@@ -111,6 +112,7 @@
 
         .aboutImg {
             width: 100%;
+            height: auto;
         }
 
         .aboutText {
@@ -118,11 +120,13 @@
             text-align: justify;
             padding-top: 20px;
             font-size: 14.5px;
-            line-height: 30px;
+            line-height: 22px;
         }
     }
 
     .press{
+        padding: 10px;
+
         .links a{
            font-size: 11px;
         }
