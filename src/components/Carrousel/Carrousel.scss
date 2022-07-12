@@ -22,7 +22,7 @@
 
 .carousel{
 
-    width: 70%;
+    width: 60%;
 
     .carousel-item .w-100{
         height: auto;
@@ -35,13 +35,13 @@
 @media only screen and (max-width: 950px){
 
     .slide{
-        padding-top:50px ;
-        padding-bottom: 0px;
+        padding-top:0px ;
+        padding-bottom: 10px;
     }
 
     .name{
         text-align: center;
-        padding-top: 30px;
+        padding-top: 50px;
     }
  
     .carousel{
