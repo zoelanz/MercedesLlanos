@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,SAAS,CAAA;EAEL,WAAW,EAAE,IAAI;CACpB",
+    "sources": [
+        "WorkYearContainer.scss"
+    ],
+    "names": [],
+    "file": "WorkYearContainer.css"
+}

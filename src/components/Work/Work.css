@@ -1,0 +1,20 @@
+.work {
+  padding: 20px;
+}
+
+.work .card {
+  border: none;
+}
+
+.imgWork {
+  width: 100%;
+  height: auto;
+  -webkit-transition: all ease 0.5s;
+  transition: all ease 0.5s;
+}
+
+.imgWork:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+/*# sourceMappingURL=Work.css.map */

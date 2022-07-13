@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,cAAc,CAAA;EACV,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,MAAM;EACvB,SAAS,EAAE,IAAI;CAElB",
+    "sources": [
+        "WorkYear.scss"
+    ],
+    "names": [],
+    "file": "WorkYear.css"
+}

@@ -73,7 +73,8 @@ function Contact() {
             <div className="col-100">
               <input
                 required
-                id="formName"
+                name="name"
+                id="name"
                 type="text"
                 placeholder="Name*"
                 className="w-100 input"
@@ -82,7 +83,8 @@ function Contact() {
             <div className="col-75">
               <input
                 required
-                id="formSurname"
+                name="name"
+                id="name"
                 type="text"
                 placeholder="Last Name*"
                 className="w-100 input"
@@ -91,7 +93,8 @@ function Contact() {
             <div className="col-75">
               <input
                 required
-                id="formEmail"
+                name="email"
+                id="email"
                 type="email"
                 placeholder="Email*"
                 className="w-100 input"
@@ -100,7 +103,8 @@ function Contact() {
             <div className="col-75">
               <textarea
                 required
-                id="formEmail"
+                name="message"
+                id="message"
                 type="email"
                 placeholder="Message*"
                 className="w-100 input"

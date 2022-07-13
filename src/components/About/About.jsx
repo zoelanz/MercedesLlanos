@@ -18,7 +18,7 @@ function About() {
             CUNY Hunter College in 2021 and is a grantee of The Elizabeth
             Greenshields Foundation Grant for figurative painting. Her practice
             deals with the surreal aspect of dreams as they concern with waking
-            life issues, mainly focusing on power-roles in domestic partnerships
+            life issues, mainly focusing on power roles in domestic partnerships
             embedded in a South American Patriarchal upbringing. In her dreams,
             she subconsciously navigates the repression of freedom firsthand
             experienced, and that of the transgenerational woman collective. Her
