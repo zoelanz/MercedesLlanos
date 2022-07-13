@@ -6,6 +6,13 @@ import "react-toastify/dist/ReactToastify.css";
 import "./Contact.scss";
 
 function Contact() {
+  function clearForm() {
+    let input = document.querySelectorAll(".input");
+    input.forEach((item) => {
+      item.value = "";
+    });
+  }
+
   useEffect(() => {
     const btn = document.getElementById("button");
 
@@ -30,6 +37,7 @@ function Contact() {
 
             btn.value = "Submit";
             console.log("Mail status: success");
+            clearForm();
           },
           (err) => {
             btn.value = "Submit";
@@ -83,8 +91,8 @@ function Contact() {
             <div className="col-75">
               <input
                 required
-                name="name"
-                id="name"
+                name="lastName"
+                id="lastName"
                 type="text"
                 placeholder="Last Name*"
                 className="w-100 input"

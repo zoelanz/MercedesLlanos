@@ -1,5 +1,7 @@
 import React from "react";
 import WorkYear from "../WorkYear/WorkYear";
+import Loader from "../Loader/Loader";
+
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 
@@ -9,11 +11,9 @@ import {
   getDocs,
   query,
   where,
-  
 } from "firebase/firestore";
 
 import "./WorkYearContainer.scss";
-import Loader from "../Loader/Loader";
 
 function WorkYearContainer() {
   //FILTERING WORKS BY YEAR AND CATEGORY//

@@ -16,7 +16,6 @@
         align-items: center;
         padding-top: 20px;
 
-
         .button {
             border: 1px solid rgb(0, 0, 0);
             letter-spacing: 1px;
@@ -30,7 +29,6 @@
                 color: black;
             }
         }
-
 
     }
 }
@@ -46,7 +44,6 @@
 .inquires {
     text-align: center;
     padding-top: 20px;
-
 }
 
 .network {
@@ -55,7 +52,6 @@
 
     .linkMail{
         color: black;
-
     }
 }
 
@@ -77,8 +73,10 @@
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
     --toastify-color-progress-light:
-        #080808;
+        #080808;  
 }
+
+ //  MEDIA QUERIES CONTACT  //
 
 @media only screen and (max-width: 850px) {
 
@@ -97,8 +95,7 @@
     }
 }
 
-
- // ============================== AUTOCOMPLETE INPUT ============================== //
+ //  AUTOCOMPLETE INPUT  //
 
 input:-webkit-autofill,
 input:-webkit-autofill:hover,

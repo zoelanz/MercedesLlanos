@@ -1,9 +1,11 @@
 import React from "react";
+
 import WorkDetail from "../WorkDetail/WorkDetail";
+import Loader from "../Loader/Loader";
+
 import { useState, useEffect } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import { getFirestore, doc, getDoc } from "firebase/firestore";
-import Loader from "../Loader/Loader";
 
 function WorkDetailContainer() {
   const [loading, setLoading] = useState(true);

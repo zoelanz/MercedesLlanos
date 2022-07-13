@@ -18,27 +18,26 @@
     padding: 1rem;
 }
 
-.linkNav{
+.linkNav {
     padding: 15px;
     color: black;
     text-decoration: none;
-    
-    &:hover{
+
+    &:hover {
         color: #A19B9B;
     }
 }
 
-.dropdown-toggle{
+.dropdown-toggle {
     padding: 5px 10px 5px 5px;
 
 
-    .arrowNav{
+    .arrowNav {
         color: black;
-        
-        &:hover{
+
+        &:hover {
             color: #A19B9B;
         }
-
     }
 }
 
@@ -53,18 +52,16 @@
     border-left: 0 solid transparent;
 }
 
-.btn{
+.btn {
     margin: 0;
-
 }
 
 .btn-success {
     color: rgb(0, 0, 0);
     background-color: transparent;
     border: none;
-    padding: 15px 0px 15px 15px ;
+    padding: 15px 0px 15px 15px;
     box-shadow: 0 0 0 .25rem rgba(60, 153, 110, 0);
-
 }
 
 .btn-success:hover {
@@ -73,23 +70,23 @@
     border: none;
 }
 
-.btn-success:active{
+.btn-success:active {
     color: rgb(0, 0, 0);
     background-color: transparent;
     border: none;
 }
 
-.btn-success:focus{
+.btn-success:focus {
     color: rgb(0, 0, 0);
-    background-color:transparent;
+    background-color: transparent;
     border: none;
 }
 
-.btn-group>.btn-group:not(:last-child)>.btn, .btn-group>.btn:not(:last-child):not(.dropdown-toggle) {
- 
+.btn-group>.btn-group:not(:last-child)>.btn,
+.btn-group>.btn:not(:last-child):not(.dropdown-toggle) {
     box-shadow: none;
 }
-   
+
 
 .btn-primary {
     color: rgb(0, 0, 0);
@@ -109,7 +106,8 @@
     box-shadow: transparent;
 }
 
-.btn-primary:active, .show>.btn-primary.dropdown-toggle {
+.btn-primary:active,
+.show>.btn-primary.dropdown-toggle {
     color: rgb(0, 0, 0);
     background-color: transparent;
     border-color: none;
@@ -120,8 +118,6 @@
     background-color: #0b5dd700;
     border-color: #0a57ca00;
     box-shadow: 0 0 0 0.25rem rgba(49, 131, 253, 0);
-
-  
 }
 
 .show>.btn-primary.dropdown-toggle:focus {
@@ -131,10 +127,9 @@
 .show>.btn-primary.dropdown-toggle {
     background-color: transparent;
     border-color: transparent;
-
 }
 
-.btn-primary:active:focus{
+.btn-primary:active:focus {
     box-shadow: none;
 }
 
@@ -153,54 +148,46 @@
     box-shadow: none;
 }
 
-.dropdown-item.active, .dropdown-item:active {
+.dropdown-item.active,
+.dropdown-item:active {
     color: rgb(0, 0, 0);
     text-decoration: none;
     background-color: #70148700;
-
-
 }
 
+#dropdown-split-basic {
 
- 
-
-#dropdown-split-basic{
-
-    
-    &:hover{
+    &:hover {
 
         color: #A19B9B;
 
-        .arrowNav{
-
-        color: #A19B9B;
+        .arrowNav {
+            color: #A19B9B;
         }
-
     }
 }
 
-@media only screen and (max-width: 992px){
- 
-  .btn-group-vertical>.btn, .btn-group>.btn{
-    flex: 0;
-    padding: 15px;
+//  MEDIA QUERIES NAV  //
 
-  }
+@media only screen and (max-width: 992px) {
+
+    .btn-group-vertical>.btn,
+    .btn-group>.btn {
+        flex: 0;
+        padding: 15px;
+    }
 }
 
-@media only screen and (max-width: 429px){
- 
-    .containerNav .navbar-brand{
+@media only screen and (max-width: 429px) {
+
+    .containerNav .navbar-brand {
         font-size: 20px;
     }
-  }
+}
 
-  @media only screen and (max-width: 380px){
- 
-    .containerNav .navbar-brand{
+@media only screen and (max-width: 380px) {
+
+    .containerNav .navbar-brand {
         font-size: 18px;
     }
-  }
-  
-
-  
+}

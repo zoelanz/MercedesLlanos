@@ -1,18 +1,18 @@
-.work{
+.work {
     padding: 20px;
 
-    .card{
+    .card {
         border: none;
     }
-    
+
 }
 
-.imgWork{
-    width:100%;
-    height:auto;
+.imgWork {
+    width: 100%;
+    height: auto;
     transition: all ease 0.5s;
-    &:hover{
+
+    &:hover {
         transform: scale(1.1);
     }
 }
-
