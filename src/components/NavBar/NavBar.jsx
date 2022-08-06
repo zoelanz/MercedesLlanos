@@ -1,14 +1,11 @@
-import React from "react";
+
+import { Link } from "react-router-dom";
+import { Navbar, Nav, Dropdown, ButtonGroup } from "react-bootstrap";
+import { Container } from "react-bootstrap";
+import { MdOutlineKeyboardArrowDown } from "react-icons/md";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./NavBar.scss";
-
-import { Link } from "react-router-dom";
-
-import { Navbar, Nav, Dropdown, Button, ButtonGroup } from "react-bootstrap";
-import { Container } from "react-bootstrap";
-
-import { MdOutlineKeyboardArrowDown } from "react-icons/md";
 
 function NavBar() {
   return (
@@ -28,8 +25,7 @@ function NavBar() {
 
             <Dropdown className="buttonWork" as={ButtonGroup}>
 
-              <Dropdown.Toggle // split
-                // variant="success"
+              <Dropdown.Toggle
                 id="dropdown-split-basic"
               > Work
                 <MdOutlineKeyboardArrowDown className="arrowNav" />
